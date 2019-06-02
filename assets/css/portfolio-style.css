@@ -59,3 +59,195 @@ h4{
     color:#ffffff;
     text-align: center;
 }
+
+@media screen and (max-width: 960px) {
+    .screen-container{
+        min-height: 90vh;
+        position: relative;
+        overflow: hidden;
+    }
+    body{
+        background-image: url(../images/background/interlaced.png);
+        font-family: Arial, Helvetica, sans-serif;   
+    }
+    
+    h2{
+        color: #4aaaa5;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+    }
+    hr{
+        background:  #cccccc;
+        border: none;
+    }
+    
+    .portfolio-container {
+        
+        width: 768px;
+        padding:20px;
+        margin: auto;
+        align-self: center;
+        background: #ffffff;
+        min-height: 60vh;
+        overflow: hidden;
+    }
+    
+    img {
+        width: 30vh;
+        height: auto;
+    }
+    
+    h4{
+        color: #4aaaa5;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .pic {
+        position: relative;
+        width: 30vh;
+        height: auto;
+        float: left;
+        margin: 10px 60px;
+    }
+    .label{
+        position: relative;
+        min-height: 28px;
+        top: -8vh;
+        padding: 5px;
+        background-color: #4aaaa5;
+        color:#ffffff;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .screen-container{
+        min-height: 90vh;
+        position: relative;
+        overflow: hidden;
+    }
+    body{
+        background-image: url(../images/background/interlaced.png);
+        font-family: Arial, Helvetica, sans-serif;   
+    }
+    
+    h2{
+        color: #4aaaa5;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+    }
+    hr{
+        background:  #cccccc;
+        border: none;
+    }
+    
+    .portfolio-container {
+        
+        width: 640px;
+        padding:20px;
+        margin: auto;
+        align-self: center;
+        background: #ffffff;
+        min-height: 60vh;
+        overflow: hidden;
+    }
+    
+    img {
+        width: 30vh;
+        height: auto;
+    }
+    
+    h4{
+        color: #4aaaa5;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .pic {
+        position: relative;
+        width: 30vh;
+        height: auto;
+        float: left;
+        margin: 10px 60px;
+    }
+    .label{
+        position: relative;
+        min-height: 28px;
+        top: -8vh;
+        padding: 5px;
+        background-color: #4aaaa5;
+        color:#ffffff;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .screen-container{
+        min-height: 90vh;
+        position: relative;
+        overflow: hidden;
+    }
+    body{
+        background-image: url(../images/background/interlaced.png);
+        font-family: Arial, Helvetica, sans-serif;   
+    }
+    
+    h2{
+        color: #4aaaa5;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+    }
+    hr{
+        background:  #cccccc;
+        border: none;
+    }
+    
+    .portfolio-container {
+        
+        width: 80%;
+        padding:20px;
+        margin: auto;
+        align-self: center;
+        background: #ffffff;
+        min-height: 60vh;
+        overflow: hidden;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    h4{
+        color: #4aaaa5;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .pic {
+        position: relative;
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: 10px 0px;
+    }
+    .label{
+        position: relative;
+        min-height: 28px;
+        top: -8vh;
+        padding: 5px;
+        background-color: #4aaaa5;
+        color:#ffffff;
+        text-align: center;
+    }
+}

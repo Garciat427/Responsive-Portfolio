@@ -41,3 +41,134 @@ header{
     margin-left: -4px;
     color: #777777;
 }
+
+@media screen and (max-width: 960px) {
+  
+  header{
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2.5vh;
+  }
+  h1{
+    padding: 20px;
+    font-size: 28px;
+    color: #ffffff;
+    background:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    float: left;
+    min-height: 5vh;
+  }
+  .header-container{
+    overflow: hidden;
+    width: 768px;
+    margin: auto;
+
+  }
+  .link-container {
+    float: right;
+    margin: 26px 0;
+  }
+  .main-links{
+      padding: 0 20px;
+      margin-left: -4px;
+      border-style: solid;
+      border-right-width: 1px;
+      border-color: #cccccc;
+      color: #777777;
+  }
+  .end-link{
+    padding-left: 20px;
+    margin-left: -4px;
+    color: #777777;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  header{
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2.5vh;
+  }
+  h1{
+    padding: 20px;
+    font-size: 28px;
+    color: #ffffff;
+    background:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    float: left;
+    min-height: 5vh;
+  }
+  .header-container{
+    overflow: hidden;
+    width: 640px;
+    margin: auto;
+
+  }
+  .link-container {
+    float: right;
+    margin: 26px 0;
+  }
+  .main-links{
+      padding: 0 20px;
+      margin-left: -4px;
+      border-style: solid;
+      border-right-width: 1px;
+      border-color: #cccccc;
+      color: #777777;
+  }
+  .end-link{
+    padding-left: 20px;
+    margin-left: -4px;
+    color: #777777;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  
+  header{
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2.5vh;
+    float:none;
+  }
+  h1{
+    float:none;
+    padding: 20px;
+    font-size: 28px;
+    color: #ffffff;
+    background:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    min-height: 5vh;
+    text-align: center;
+  }
+  .header-container{
+    width: auto;
+    margin: auto;
+    float:none;
+
+  }
+  .link-container {
+    margin: 26px 0;
+    float:none;
+    text-align: center;
+  }
+  .main-links{
+      float:none;
+      text-align: center;
+      padding: 0 20px;
+      border-style: solid;
+      border-right-width: 1px;
+      border-color: #cccccc;
+      color: #777777;
+  }
+  .end-link{
+    float:none;
+    padding-left: 20px;
+    margin-left: -4px;
+    color: #777777;
+  }
+}

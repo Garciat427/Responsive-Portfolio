@@ -52,3 +52,174 @@ button{
     color: #ffffff;
     background:#4aaaa5;
 }
+
+@media screen and (max-width: 960px) {
+    .screen-container{
+        min-height: 90vh;
+        position: relative;
+        overflow: hidden;
+    }
+    body{
+        background-image: url(../images/background/interlaced.png);
+        font-family: Arial, Helvetica, sans-serif;  
+        color: #cccccc;
+    }
+    
+    h2{
+        color: #4aaaa5;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+    }
+    hr{
+        background:  #cccccc;
+        border: none;
+    }
+    
+    .contact-container {
+        
+        width: 768px;
+        padding:20px;
+        margin: auto;
+        align-self: center;
+        background: #ffffff;
+        min-height: 60vh;
+        overflow: hidden;
+    }
+    h4{
+        color: #777777;
+    
+    }
+    .text-box-line{
+        color: #777777;
+        margin: 10px 0;
+        width: 728px;
+    }
+    .text-box-multi{
+        color: #777777;
+        margin: 10px 0;
+        width: 728px;
+        height: 20vh;
+    }
+    button{
+        padding: 10px 30px;
+        font-size: 16px;
+        color: #ffffff;
+        background:#4aaaa5;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .screen-container{
+        min-height: 90vh;
+        position: relative;
+        overflow: hidden;
+    }
+    body{
+        background-image: url(../images/background/interlaced.png);
+        font-family: Arial, Helvetica, sans-serif;  
+        color: #cccccc;
+    }
+    
+    h2{
+        color: #4aaaa5;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+    }
+    hr{
+        background:  #cccccc;
+        border: none;
+    }
+    
+    .contact-container {
+        
+        width: 640px;
+        padding:20px;
+        margin: auto;
+        align-self: center;
+        background: #ffffff;
+        min-height: 60vh;
+        overflow: hidden;
+    }
+    h4{
+        color: #777777;
+    
+    }
+    .text-box-line{
+        color: #777777;
+        margin: 10px 0;
+        width: 600px;
+    }
+    .text-box-multi{
+        color: #777777;
+        margin: 10px 0;
+        width: 600px;
+        height: 20vh;
+    }
+    button{
+        padding: 10px 30px;
+        font-size: 16px;
+        color: #ffffff;
+        background:#4aaaa5;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .screen-container{
+        min-height: 90vh;
+        position: relative;
+        overflow: hidden;
+    }
+    body{
+        background-image: url(../images/background/interlaced.png);
+        font-family: Arial, Helvetica, sans-serif;  
+        color: #cccccc;
+    }
+    
+    h2{
+        color: #4aaaa5;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+    }
+    hr{
+        background:  #cccccc;
+        border: none;
+    }
+    
+    .contact-container {
+        
+        width: 80%;
+        padding:20px;
+        margin: auto;
+        align-self: center;
+        background: #ffffff;
+        min-height: 60vh;
+        overflow: hidden;
+    }
+    h4{
+        color: #777777;
+    
+    }
+    .text-box-line{
+        color: #777777;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .text-box-multi{
+        color: #777777;
+        margin: 10px 0;
+        width: 100%;
+        height: 20vh;
+    }
+    button{
+        padding: 10px 30px;
+        font-size: 16px;
+        color: #ffffff;
+        background:#4aaaa5;
+    }
+}
